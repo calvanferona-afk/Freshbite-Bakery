@@ -1,0 +1,55 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="FreshBite Bakery artisan bakery website.">
+<title>Contact | FreshBite Bakery</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css"></head><body>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+<header>
+ <div class="container navbar">
+  <a class="brand" href="index.html"><span class="brand-mark">🍞</span>FreshBite Bakery</a>
+  <button class="menu-btn" aria-label="Toggle navigation">☰</button>
+  <ul class="nav-links">
+   <li><a href="index.html">Home</a></li>
+   <li><a href="about.html">About</a></li>
+   <li><a href="menu.html">Menu</a></li>
+   <li><a href="catering.html">Events & Catering</a></li>
+   <li><a href="gallery.html">Gallery</a></li>
+   <li><a href="contact.html">Contact</a></li>
+   <li><a href="#" class="cart-pill open-cart">Order (<span id="cart-count">0</span>)</a></li>
+  </ul>
+ </div>
+</header>
+
+<main id="main"><section class="page-hero"><div class="container"><div class="eyebrow">We would love to hear from you</div><h1>Get in Touch</h1><p>Visit, call or send us a message.</p></div></section>
+<section><div class="container contact-layout">
+
+<form class="card form-card" data-demo><h2>Send a Message</h2><div class="form-grid">
+<div class="form-group"><label for="name">Full name *</label><input id="name" name="name" required></div>
+<div class="form-group"><label for="email">Email *</label><input id="email" name="email" type="email" required></div>
+<div class="form-group full"><label for="subject">Subject *</label><input id="subject" name="subject" required></div>
+<div class="form-group full"><label for="message">Message *</label><textarea id="message" name="message" rows="6" required></textarea></div>
+<div class="full"><button class="btn btn-primary" type="submit">Send Message</button></div></div></form>
+<aside class="card info-card"><h2>Find Us</h2><div class="map">📍 FreshBite Bakery<br>Durham, North Carolina<br><small>Interactive map placeholder</small></div><h3>Opening Hours</h3><ul class="hours"><li><span>Monday–Friday</span><strong>7am–6pm</strong></li><li><span>Saturday</span><strong>7am–4pm</strong></li><li><span>Sunday</span><strong>8am–2pm</strong></li></ul><p><strong>Phone:</strong> (919) 555-0192<br><strong>Email:</strong> hello@freshbite.com</p></aside>
+</div></section></main>
+
+<div id="overlay" class="overlay"></div>
+<aside id="cart-panel" class="cart-panel" aria-label="Shopping cart">
+ <div class="cart-head"><h2>Your Order</h2><button id="close-cart" class="icon-btn" aria-label="Close cart">×</button></div>
+ <div id="cart-items"></div>
+ <div class="cart-total">Total: <span id="cart-total">$0.00</span></div>
+ <button id="checkout" class="btn btn-primary" style="width:100%">Demo Checkout</button>
+</aside>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<footer>
+ <div class="container footer-grid">
+  <div><h3>FreshBite Bakery</h3><p>Handcrafted breads, cakes and pastries made daily with locally sourced ingredients.</p></div>
+  <div><h3>Visit</h3><p>Durham, North Carolina<br>(919) 555-0192<br>hello@freshbite.com</p></div>
+  <div><h3>Hours</h3><p>Mon–Fri: 7am–6pm<br>Saturday: 7am–4pm<br>Sunday: 8am–2pm</p></div>
+ </div>
+ <div class="container footer-bottom">© 2026 FreshBite Bakery · Privacy · Terms</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body></html>

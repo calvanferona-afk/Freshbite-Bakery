@@ -1,0 +1,68 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="FreshBite Bakery artisan bakery website.">
+<title>Index | FreshBite Bakery</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css"></head><body>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+<header>
+ <div class="container navbar">
+  <a class="brand" href="index.html"><span class="brand-mark">🍞</span>FreshBite Bakery</a>
+  <button class="menu-btn" aria-label="Toggle navigation">☰</button>
+  <ul class="nav-links">
+   <li><a href="index.html">Home</a></li>
+   <li><a href="about.html">About</a></li>
+   <li><a href="menu.html">Menu</a></li>
+   <li><a href="catering.html">Events & Catering</a></li>
+   <li><a href="gallery.html">Gallery</a></li>
+   <li><a href="contact.html">Contact</a></li>
+   <li><a href="#" class="cart-pill open-cart">Order (<span id="cart-count">0</span>)</a></li>
+  </ul>
+ </div>
+</header>
+
+<main id="main">
+<section class="hero"><div class="container hero-content">
+ <div class="eyebrow">Baked with Love, Shared with Durham</div>
+ <h1>Fresh. Local. Unforgettable.</h1>
+ <p>Discover artisan breads, celebration cakes and buttery pastries handcrafted every day with locally sourced ingredients.</p>
+ <div class="hero-actions"><a class="btn btn-primary" href="menu.html">Browse Our Menu</a><button class="btn btn-light open-cart">Order Online</button></div>
+</div></section>
+<section><div class="container"><div class="section-head"><div class="script">Customer favourites</div><h2>Featured Products</h2><p>Small-batch treats made fresh in our Durham bakery.</p></div>
+<div class="grid grid-3">
+ <article class="card product-card"><img src="sourdough.png" alt="Fresh sourdough loaf"><div class="card-body"><h3>Classic Sourdough</h3><p>Slow-fermented with a crisp crust and open crumb.</p><div class="card-actions"><span class="price">$7.50</span><button class="btn btn-primary add-cart" data-name="Classic Sourdough">Order now</button></div></div></article>
+ <article class="card product-card"><img src="celebration-cake.png" alt="Custom celebration cake"><div class="card-body"><h3>Celebration Cake</h3><p>Beautiful custom designs for your special moments.</p><div class="card-actions"><span class="price">From $45</span><a class="btn btn-primary" href="catering.html">Enquire</a></div></div></article>
+ <article class="card product-card"><img src="croissants.png" alt="Golden butter croissants"><div class="card-body"><h3>Butter Croissant</h3><p>Golden, flaky and baked every morning.</p><div class="card-actions"><span class="price">$3.25</span><button class="btn btn-primary add-cart" data-name="Butter Croissant">Order now</button></div></div></article>
+</div></div></section>
+<section class="band"><div class="container about-wrap">
+ <img src="bakery-team.png" alt="Friendly bakery team at work">
+ <div><div class="eyebrow">Our story</div><h2>Handcrafted in Durham since 2019</h2><p>FreshBite Bakery brings together traditional methods, modern flavours and a deep commitment to community. We partner with regional farms, bake in small batches and welcome every customer like a neighbour.</p><div class="badges"><span class="badge">Locally sourced</span><span class="badge">Made daily</span><span class="badge">Community first</span></div><a class="btn btn-primary" href="about.html">Read More About Us</a></div>
+</div></section>
+<section><div class="container"><div class="section-head"><div class="script">Kind words</div><h2>What Our Customers Say</h2></div>
+<div class="grid grid-3">
+ <article class="card testimonial"><div class="stars">★★★★★</div><p>“The best sourdough in Durham. Crisp outside, soft inside, and always fresh.”</p><strong>— Sarah M.</strong></article>
+ <article class="card testimonial"><div class="stars">★★★★★</div><p>“Our wedding cake looked beautiful and tasted even better. The team was wonderful.”</p><strong>— James & Priya</strong></article>
+ <article class="card testimonial"><div class="stars">★★★★★</div><p>“A warm local bakery with fresh pastries every single morning.”</p><strong>— A Durham family</strong></article>
+</div></div></section>
+</main>
+
+<div id="overlay" class="overlay"></div>
+<aside id="cart-panel" class="cart-panel" aria-label="Shopping cart">
+ <div class="cart-head"><h2>Your Order</h2><button id="close-cart" class="icon-btn" aria-label="Close cart">×</button></div>
+ <div id="cart-items"></div>
+ <div class="cart-total">Total: <span id="cart-total">$0.00</span></div>
+ <button id="checkout" class="btn btn-primary" style="width:100%">Demo Checkout</button>
+</aside>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<footer>
+ <div class="container footer-grid">
+  <div><h3>FreshBite Bakery</h3><p>Handcrafted breads, cakes and pastries made daily with locally sourced ingredients.</p></div>
+  <div><h3>Visit</h3><p>Durham, North Carolina<br>(919) 555-0192<br>hello@freshbite.com</p></div>
+  <div><h3>Hours</h3><p>Mon–Fri: 7am–6pm<br>Saturday: 7am–4pm<br>Sunday: 8am–2pm</p></div>
+ </div>
+ <div class="container footer-bottom">© 2026 FreshBite Bakery · Privacy · Terms</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body></html>
